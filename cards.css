@@ -10,7 +10,7 @@
     margin: 30px auto;
     width: 200px;
     height: 200px;
-    border-radius: 40px;
+    /* border-radius: 40px; */
   box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
     cursor: pointer;
     transition: 0.4s;
@@ -19,13 +19,13 @@
   .card .card_image {
     width: 200px;
     height: 200px;
-    border-radius: 40px;
+    /* border-radius: 40px; */
   }
   
   .card .card_image img {
     width: 200px;
     height: 200px;
-    border-radius: 40px;
+    /* border-radius: 40px; */
     object-fit:200px
   }
   
