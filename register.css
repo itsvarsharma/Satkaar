@@ -48,7 +48,8 @@ h2 {
 }
 
 .form-control input {
-    border: 2px solid rgba(255, 255, 255, 0.424);
+    border: none;
+    background-color:rgba(255, 255, 255, 0.424) ;
     border-radius: 4px;
     display: block;
     width: 100%;
