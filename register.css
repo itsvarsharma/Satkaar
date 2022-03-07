@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color:#00A665;
+    background: url(assets/login-bg.png);
     font-family: "Poppins", sans-serif;
     display: flex;
     align-items: center;
@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-    background-color: #C8F8E5;
+    background-color: rgba(255, 255, 255, 0.123);
     box-shadow: 0 2px 10px rgba(0,0,0,0.3);
     border-radius: 5px;
     width: 400px;
@@ -43,12 +43,12 @@ h2 {
 
 .form-control label {
     display: block;
-    color: rgb(119, 119, 119);
+    color: rgba(255, 255, 255, 0.424);
     margin-bottom: 10px;
 }
 
 .form-control input {
-    border: 2px solid #00643D;
+    border: 2px solid rgba(255, 255, 255, 0.424);
     border-radius: 4px;
     display: block;
     width: 100%;
@@ -90,12 +90,12 @@ h2 {
     width: 100%;
     font-size: 14px;
     border-radius: 4px;
-    color:#fff;
+    color:rgba(255, 255, 255, 0.424);
     transition: all 1s ease-in-out;
 }
 
 .form button:hover {
-    background-color: #00A665;
+    background-color: #00a666d2;
    
 }
 
