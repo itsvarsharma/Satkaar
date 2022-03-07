@@ -134,13 +134,13 @@ form input[type="submit"]{
   color: #fff;
   padding: 0;
   border: none;
-  background: #00643eb0;
+  background: #00A;
   cursor: pointer;
   border-bottom: 2px solid rgba(0,0,0,0.1);
   transition: all 0.3s ease;
 }
 form input[type="submit"]:hover{
-  background: #00a666d2;
+  background: rgb(39, 39, 160);
 }
 .wrapper .sign-txt{
   color: rgba(255, 255, 255, 0.698);

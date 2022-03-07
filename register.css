@@ -84,7 +84,7 @@ h2 {
 
 .form button {
     cursor: pointer;
-    background-color: #00643D;
+    background-color: #00A;
     border: none;
     display: block;
     padding: 10px;
@@ -96,7 +96,7 @@ h2 {
 }
 
 .form button:hover {
-    background-color: #00a666d2;
+    background-color: rgb(39, 39, 160);
    
 }
 
