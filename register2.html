@@ -14,30 +14,40 @@
       <form id="form" class="form">
           <h2 style="color: #fff;" >Register with us</h2>
           <div class="form-control">
-              <label for="username">Username</label>
+              <label for="username">First Name</label>
               <input type="text" id="username" placeholder="Enter username">
               <small>Error message</small>
           </div>
 
           <div class="form-control">
-              <label for="email">Email</label>
+              <label for="email">Last Name</label>
               <input type="text" id="email" placeholder="Enter email">
               <small>Error message</small>
           </div>
 
           <div class="form-control">
-              <label for="password">Password</label>
-              <input type="password" id="password" placeholder="Enter password">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Enter Phone No.">
               <small>Error message</small>
           </div>
 
           <div class="form-control">
-              <label for="password2">Confirm Password</label>
-              <input type="password" id="password2" placeholder="Enter password again">
+              <label for="text">Address</label>
+              <input type="text" id="address" placeholder="Enter Address">
               <small>Error message</small>
           </div>
+          <div class="form-control">
+            <label for="number">Addhar No.</label>
+            <input type="number" id="addharNo" placeholder="Enter Addhar no">
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="myfile">ID Proof </label>
+<input type="file" id="myfile" name="myfile">
+            <small>Error message</small>
+        </div>
 
-          <button onclick="window.location.href='register2.html';">Next</button>
+          <button >Submit</button>
 
       </form>
   </div>

@@ -107,6 +107,15 @@ code, pre{
     color: #fff;
     margin: 0 5px;
 }
+.navbar button{
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+.navbar button:hover{
+    border-bottom: 2px solid #fff;
+    height: 40px;
+}
 
 .navbar a:hover{
     border-bottom: 2px solid #fff;
