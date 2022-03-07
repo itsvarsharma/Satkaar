@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background: black;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1.5fr;
+    
+}
+
+.logo{
+    margin: 4px;
+    padding: 4px;
+}
+
+.menu-list{
+    
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item{
+    list-style: none;
+}
+
+.nav-item{
+    margin: 4px;
+    padding: 4px;
+}
+
+.login{
+    margin: 4px;
+    padding: 4px;
+    
+}
+
+.carousel-img{
+    opacity: 0.8;
+}
+
+
+/* Utilities */
+
+.btn-primary{
+    background-color: #00a665;
+    padding: 3px;
+    border-radius: 10px;
+}
