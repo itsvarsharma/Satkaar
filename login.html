@@ -1,44 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>login</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="login.css" />
-    <script src="https://use.fontawesome.com/00f0f42621.js"></script>
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>Login</header>
-      <form action="#">
-        <div class="field email">
-          <div class="input-area">
-            <input type="text" placeholder="Email Address" />
-            <i class="icon fa fa-envelope"></i>
-            <i class="error error-icon fas fa-exclamation-circle"></i>
-          </div>
-          <div class="error error-txt">Email can't be blank</div>
-        </div>
-        <div class="field password">
-          <div class="input-area">
-            <input type="password" placeholder="Password" />
-            <i class="icon fa fa-key"></i>
-            <i class="error error-icon fas fa-exclamation-circle"></i>
-          </div>
-          <div class="error error-txt">Please Enter the correct password!</div>
-        </div>
-        <div class="pass-txt"><a href="#">Forgot password?</a></div>
-        <input type="submit" value="Login" />
-      </form>
-      <div class="sign-txt">Not yet member? <a href="register.html">Signup now</a></div>
-    </div>
-    <script src="login.js"></script>
-  </body>
+<html>
+<head>
+  <title>Firebase Login</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="login_div" class="main-div">
+    <h3>Firebase Web login Example</h3>
+    <input type="email" placeholder="Email..." id="email_field" />
+    <input type="password" placeholder="Password..." id="password_field" />
+
+    <button onclick="login()">Login to Account</button>
+  </div>
+
+  <div id="user_div" class="loggedin-div">
+    <h3>Welcome User</h3>
+    <p id="user_para">Welcome to Firebase web login Example. You're currently logged in.</p>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+
+
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    const firebaseConfig = {
+    apiKey: "AIzaSyBpsiI5NJRyzJO0jI7rUe7ncfAs4WyDgho",
+    authDomain: "satkaar-930f6.firebaseapp.com",
+    projectId: "satkaar-930f6",
+    storageBucket: "satkaar-930f6.appspot.com",
+    messagingSenderId: "511217610394",
+    appId: "1:511217610394:web:5760bc052500c880df3923"
+  };
+
+    
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <script src="login.js"></script>
+
+</body>
 </html>
